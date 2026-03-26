@@ -1,4 +1,4 @@
-import taichi as ti
+import taichi as ti # type: ignore
 import math
 
 # 初始化 Taichi，指定使用 CPU 后端
