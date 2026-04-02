@@ -50,7 +50,7 @@ conda activate cg_env
 # 安装依赖
 pip install taichi
 ```
-###3.IDE配置
+### 3.IDE配置
 
 ## 🎮 使用方法
 
