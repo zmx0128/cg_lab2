@@ -108,18 +108,23 @@ uv run python src/cube.py
   
 ![cg_lab2](https://github.com/user-attachments/assets/52e87cdc-ad19-472a-bafb-fd46dbfd043d)
 
-- 三角形三边颜色改变效果
+- 三角形颜色改变，同时旋转角度改为30°
   
 ![1](https://github.com/user-attachments/assets/603bade0-936c-460f-a22b-dc7169b61bfa)
 
+- 三角形初始顶点位置改变
 
+![2](https://github.com/user-attachments/assets/78cfddaa-e3f7-42ce-a040-2ff096379326)
+
+  
 ### 3D 立方体
 - 前面的边：粉红色 (0xF040AE)
 - 后面的边：紫色 (0xB440F0)
 - 连接前后的边：深红色 (0xB50053)
 - 可通过 W/S/A/D/Q/E 键控制绕不同轴的旋转
 
-  
+  ![develop](https://github.com/user-attachments/assets/90425f8e-69dc-48ef-ae5d-cb0f3bbe7587)
+
 
 ## 🔧 依赖项
 
