@@ -131,4 +131,3 @@ uv run python src/cube.py
 - **Python 3.8+**
 - **Taichi 1.7.4+**：用于并行计算和 GUI 渲染
 
-**Happy Coding! 🎉**
