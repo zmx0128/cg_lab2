@@ -104,7 +104,13 @@ uv run python src/cube.py
 ### 3D 三角形
 - 三条边分别使用红、绿、蓝三种颜色
 - 可通过 A/D 键控制旋转角度
-  ![1](https://github.com/user-attachments/assets/6e2c0e35-aefe-4a6c-bc1b-2af1c88c2bd6)
+- 三角形三边加粗效果
+  
+![cg_lab2](https://github.com/user-attachments/assets/52e87cdc-ad19-472a-bafb-fd46dbfd043d)
+
+- 三角形三边颜色改变效果
+  
+![1](https://github.com/user-attachments/assets/603bade0-936c-460f-a22b-dc7169b61bfa)
 
 
 ### 3D 立方体
@@ -112,6 +118,7 @@ uv run python src/cube.py
 - 后面的边：紫色 (0xB440F0)
 - 连接前后的边：深红色 (0xB50053)
 - 可通过 W/S/A/D/Q/E 键控制绕不同轴的旋转
+
   
 
 ## 🔧 依赖项
