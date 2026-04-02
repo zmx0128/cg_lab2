@@ -33,23 +33,24 @@ cg_lab2/
 └── README.md           # 项目说明文档
 ```
 
-## 🚀 安装说明
+## 🚀 环境配置
 
-### 1. 克隆项目
+### 1. 创建并激活Conda虚拟环境
 
 ```bash
-git clone <repository-url>
-cd cg_lab2
+conda create -n cg_env python=3.12 -y
+conda activate cg_env 
 ```
 
 ### 2. 安装依赖
 
-本项目使用 `uv` 包管理器管理依赖，确保你已经安装了 `uv`：
+在激活的环境中安装'Taichi'：
 
 ```bash
 # 安装依赖
-uv install
+pip install taichi
 ```
+###3.IDE配置
 
 ## 🎮 使用方法
 
