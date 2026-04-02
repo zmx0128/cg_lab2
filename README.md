@@ -44,7 +44,7 @@ conda activate cg_env
 
 ### 2. 安装依赖
 
-在激活的环境中安装'Taichi'：
+在激活的环境中安装`Taichi`：
 
 ```bash
 # 安装依赖
