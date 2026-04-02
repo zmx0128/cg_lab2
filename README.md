@@ -24,12 +24,12 @@
 ```
 cg_lab2/
 ├── src/
-│   ├── main.py          # 3D 三角形旋转示例
-│   └── cube.py          # 3D 立方体旋转示例
-├── .gitignore          # Git 忽略文件
+│   ├── main.py          # 3D 三角形旋转
+│   └── cube.py          # 3D 立方体旋转
+├── .gitignore          
 ├── .python-version     # Python 版本指定
-├── pyproject.toml      # 项目依赖配置
-├── uv.lock             # 依赖锁定文件
+├── pyproject.toml      
+├── uv.lock             
 └── README.md           # 项目说明文档
 ```
 
@@ -104,30 +104,19 @@ uv run python src/cube.py
 ### 3D 三角形
 - 三条边分别使用红、绿、蓝三种颜色
 - 可通过 A/D 键控制旋转角度
+  ![1](https://github.com/user-attachments/assets/6e2c0e35-aefe-4a6c-bc1b-2af1c88c2bd6)
+
 
 ### 3D 立方体
 - 前面的边：粉红色 (0xF040AE)
 - 后面的边：紫色 (0xB440F0)
 - 连接前后的边：深红色 (0xB50053)
 - 可通过 W/S/A/D/Q/E 键控制绕不同轴的旋转
+  
 
 ## 🔧 依赖项
 
 - **Python 3.8+**
 - **Taichi 1.7.4+**：用于并行计算和 GUI 渲染
-
-## 📝 许可证
-
-本项目采用 MIT 许可证。
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-## 📞 联系方式
-
-如有问题或建议，欢迎联系项目维护者。
-
----
 
 **Happy Coding! 🎉**
